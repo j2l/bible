@@ -1,3 +1,6 @@
+Note: Some licences are CC-NC, not CC0 (public domain)
+===========
+
 OSIS Bibles
 ===========
 
@@ -29,17 +32,28 @@ If there is interest in hosting other formats additional branches can be created
 JSON
 ===========
 Generated from XML.
-Texts are in UTF-8 (sans BOM)
+Texts are in UTF-8 (no BOM)
 
 Book with one chapter is still an array (not reduced to an object).
 
 Double quotes (") are escaped, see Mark.13.21
 
-Path to text is:
-_Bible.osis[0].osisText[0].div[0].chapter[0].verse[0]._text
+Path to OSIS text is:
+
+`yourBible.osis[0].osisText[0].div[0].chapter[0].verse[0]._text`
 
 "Au commencement, Dieu créa les cieux et la terre."
 
-_Bible.osis[0].osisText[0].div[0].chapter[0].verse[0].osisID._value
+`yourBible.osis[0].osisText[0].div[0].chapter[0].verse[0].osisID._value`
 
 "Gen.1.1"
+
+Path to Zefania text is:
+
+`yourBible.XMLBIBLE[0].BIBLEBOOK[0].CHAPTER[0].VERS[0]._text`
+
+"Au commencement, Dieu créa les cieux et la terre."
+
+`yourBible.XMLBIBLE[0].BIBLEBOOK[0].bname._value+' '+yourBible.XMLBIBLE[0].BIBLEBOOK[0].CHAPTER[0].cnumber._value+':'+yourBible.XMLBIBLE[0].BIBLEBOOK[0].CHAPTER[0].VERS[0].vnumber._value`
+
+"Genèse 1:1"
