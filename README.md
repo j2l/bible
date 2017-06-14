@@ -30,11 +30,16 @@ JSON
 ===========
 Generated from XML.
 Texts are in UTF-8 (sans BOM)
+
 Book with one chapter is still an array (not reduced to an object).
+
 Double quotes (") are escaped, see Mark.13.21
 
 Path to text is:
 _Bible.osis[0].osisText[0].div[0].chapter[0].verse[0]._text
+
 "Au commencement, Dieu créa les cieux et la terre."
+
 _Bible.osis[0].osisText[0].div[0].chapter[0].verse[0].osisID._value
+
 "Gen.1.1"
