@@ -1,4 +1,4 @@
-Note: Some licences are CC-NC, not CC0 (public domain)
+Note: Some licences are copyright or CC-NC, not CC0 (public domain)
 ===========
 
 OSIS Bibles
