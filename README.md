@@ -47,3 +47,5 @@ Path to OSIS text is:
 `yourBible.osis[0].osisText[0].div[0].chapter[0].verse[0].osisID._value`
 
 "Gen.1.1"
+
+Use array index `[n].lenght -1` for loops to build a chapter with a reference `chapter[0].verse[0]` is 1.1
