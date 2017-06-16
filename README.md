@@ -47,13 +47,3 @@ Path to OSIS text is:
 `yourBible.osis[0].osisText[0].div[0].chapter[0].verse[0].osisID._value`
 
 "Gen.1.1"
-
-Path to Zefania text is:
-
-`yourBible.XMLBIBLE[0].BIBLEBOOK[0].CHAPTER[0].VERS[0]._text`
-
-"Au commencement, Dieu créa les cieux et la terre."
-
-`yourBible.XMLBIBLE[0].BIBLEBOOK[0].bname._value+' '+yourBible.XMLBIBLE[0].BIBLEBOOK[0].CHAPTER[0].cnumber._value+':'+yourBible.XMLBIBLE[0].BIBLEBOOK[0].CHAPTER[0].VERS[0].vnumber._value`
-
-"Genèse 1:1"
